@@ -1,0 +1,19 @@
+form{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+
+}
+body{
+    background-color: bisque;
+}
+input[type = "text"]{
+padding: 5px;
+background-color: blue;
+color: azure;
+border-radius: 15px;
+}

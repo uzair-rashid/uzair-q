@@ -1,0 +1,106 @@
+
+/* search in product page css */
+.row-2{
+    justify-content: space space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select :focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid ff523b;
+    margin-left:10px ;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background-color: #ff523b;
+    color: #fff;
+}
+.single-product{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.single-product .col-2 img{
+    padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.simgle-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
+.logo-red{
+    font-weight: bold;
+    font-size: 25px;
+    color: #f83e24;
+}
+.logo-white{
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    line-height: 60px;
+}
+.wrapper{
+    padding: 4% 28%;
+}
+.wrapper .input_feild{
+    margin-bottom: 10px;
+}
+.wrapper .input_feild input[type="text"],
+.wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100px;
+    padding: 10px;
+}
+.wrapper textarea{
+    resize: none;
+    height: 80px;
+}
+.wrapper .submitbtn input[type="submit"]{
+    border: 0px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background-color 0.5s;
+}
+.submitbtn{
+    margin: auto;
+    text-align: center;
+}
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+#search{
+    border: 1px solid #ff523b;
+    padding: 10px;
+    width: 280px;
+}
